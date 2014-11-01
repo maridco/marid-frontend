@@ -1,0 +1,168 @@
+/*------------------------------------*\
+  #SONG
+\*------------------------------------*/
+.song {
+  @extend %clearfix;
+
+  &-item {
+    display: inline-block;
+    min-height: 1px;
+    vertical-align: top;
+    margin-right: -.25em;
+    margin-bottom: 20px;
+    height: 500px;
+  }
+
+  &-toolbar {
+    @extend %clearfix;
+  }
+
+  &-artwork {
+    position: relative;
+  }
+
+  &-cover {
+    width: 100%;
+    background-size: cover;
+  }
+
+  &-track {
+    background: $mine-shaft;
+    width: 350px;
+    margin-left: 20px;
+  }
+
+  &-title,
+  &-actions {
+    background: $cod-gray;
+    position: absolute;
+  }
+
+  &-actions {
+    left: 0;
+    bottom: 0;
+  }
+
+  &-title {
+    color: $white;
+    width: 450px;
+    font-size: $delta;
+    text-align: center;
+    padding: 2px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &-description {
+    background: $scorpion;
+  }
+
+  &-meta {
+    padding: 10px 0;
+    overflow: hidden;
+
+    &-item {
+      width: 25%;
+      float: left;
+      text-align: center;
+    }
+
+    &-cover {
+      @extend %avatar;
+    }
+
+    &-name {
+      color: $white;
+      font-size: $zeta;
+    }
+
+    &-count {
+      background: rgba($corn-flower, .9);
+      @extend %stretch;
+    }
+
+    .count {
+      color: $east-bay;
+      font-size: $gamma;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-options {
+    background: $black;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 3px 10px;
+  }
+
+  &-option {
+    color: $white;
+    font-size: 30px;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+
+  &-header {
+    border-bottom: 1px solid $white;
+    margin: 0 10px;
+    text-align: center;
+
+    > h3 {
+      color: $white;
+      font-size: $delta;
+      padding: 10px;
+      margin: 0;
+    }
+  }
+
+  &-body {
+    padding: 15px 30px;
+  }
+
+  &-list {
+    @extend %clearfix;
+
+    &-item {
+      color: $white;
+      font-size: $zeta;
+      display: block;
+      position: relative;
+
+      &:hover,
+      &:focus {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+
+    &-order,
+    &-title,
+    &-duration {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &-order {
+      width: 30px;
+    }
+
+    &-title {
+      max-width: 180px;
+      @extend %text-truncate;
+    }
+  }
+}

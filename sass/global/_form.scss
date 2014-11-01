@@ -1,0 +1,14 @@
+/*------------------------------------*\
+  #FORM
+\*------------------------------------*/
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  font-weight: 400;
+  @include placeholder($bismark);
+}
+
+.form-comment {
+  margin-top: 15px;
+}

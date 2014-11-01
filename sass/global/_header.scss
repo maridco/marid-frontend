@@ -1,0 +1,57 @@
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+.logo {
+  background: url(../images/logo.png) no-repeat;
+  background-size: cover;
+  display: block;
+  width: 38px;
+  height: 40px;
+  margin: 5px 0;
+  @extend %ir;
+}
+
+.notification {
+  border-radius: 100%;
+  font-size: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.navbar-nav {
+
+  > li {
+    margin-left: 15px;
+
+    > a {
+      color: $east-bay;
+      font-size: $zeta;
+    }
+  }
+}
+
+.navbar-search {
+
+  .input-group {
+    width: 100%;
+
+    .input-group-addon {
+      background: $white;
+      color: $east-bay;
+      font-size: $delta;
+      width: 37px;
+      padding: 0;
+    }
+
+    .form-control {
+      border-right: 0;
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+/*------------------------------------*\
+  #MUSIC
+\*------------------------------------*/
+.music {
+  position: relative;
+  padding: 0 30px;
+  margin: -110px 0 40px;
+  @extend %clearfix;
+
+  &-cover {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    float: left;
+  }
+
+  &-content {
+    color: $east-bay;
+    padding-left: 190px;
+  }
+
+  &-artist,
+  &-desc {
+    max-width: 480px;
+    @extend %text-truncate;
+  }
+
+  &-artist {
+    font-size: $mega;
+    line-height: 1;
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+
+  &-desc {
+    font-size: $delta;
+  }
+
+  &-follow {
+    background: $bismark;
+    color: $white;
+    font-weight: 700;
+    display: block;
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+
+    i {
+      padding-left: 20px;
+    }
+
+    &:hover,
+    &:focus {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

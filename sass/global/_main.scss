@@ -1,0 +1,56 @@
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+.main {
+  margin-top: 50px;
+}
+
+.content {
+  background: #fff;
+  padding: 30px 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/**
+ * Panel
+ */
+.box {
+  padding: 0 90px;
+
+  &-title {
+    color: $kashmir-blue;
+    font-size: $beta;
+    margin: 50px 0 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &-small {
+    padding: 0 30px;
+  }
+
+  &-medium {
+    padding: 0 35px;
+  }
+}
+
+/**
+ * Heading
+ */
+.heading {
+  color: $kashmir-blue;
+  margin-top: 50px;
+
+  > h2 {
+    font-size: $mega;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .lead {
+    font-size: $gamma;
+  }
+}

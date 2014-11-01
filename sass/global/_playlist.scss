@@ -1,0 +1,127 @@
+/*------------------------------------*\
+  #PLAYLIST
+\*------------------------------------*/
+.playlist {
+  @extend %nolist;
+  @extend %clearfix;
+
+  &-item {
+    display: block;
+    position: relative;
+    margin-bottom: 7px;
+  }
+}
+
+.sound {
+  background: $dove-gray;
+  display: block;
+  height: 34px;
+  padding: 2px;
+  position: relative;
+  @extend %clearfix;
+
+  &-action {
+    background: transparent;
+    border: 1px solid $white;
+    color: $white;
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+
+    &:hover,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-content {
+    position: relative;
+    color: $white;
+    overflow: hidden;
+    margin-top: 3px;
+    font-size: 16px;
+    z-index: 3;
+  }
+
+  &-title {
+    float: left;
+    max-width: 300px;
+    @extend %text-truncate;
+  }
+
+  &-actions {
+    float: right;
+    margin-right: 5px;
+  }
+
+  &-other {
+    display: inline-block;
+  }
+
+  &-wave {
+    z-index: 1;
+    background: $black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  &-options {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+
+  &-option {
+    color: $white;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+
+  /* Sound Large */
+  &-large {
+    height: 50px;
+
+    .sound-action {
+      border: 0;
+      height: auto;
+      width: auto;
+      min-width: 40px;
+
+      .fa {
+        font-size: 30px;
+        line-height: 45px;
+      }
+    }
+
+    .sound-title {
+      font-size: $delta;
+    }
+
+    .sound-content {
+      margin-top: 5px;
+    }
+  }
+}
+
+/**
+ * Width by [data-wave] attribute
+ */
+@for $i from 1 through 100 {
+  [data-wave="#{$i}"] {
+    width: #{$i} + '%';
+  }
+}

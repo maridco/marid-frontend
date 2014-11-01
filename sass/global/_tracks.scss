@@ -1,0 +1,111 @@
+/*------------------------------------*\
+  #TRACKS
+\*------------------------------------*/
+.track {
+
+  &-list {
+    @extend %nolist;
+    @extend %clearfix;
+
+    &-item {
+      display: block;
+      float: left;
+    }
+
+    &-song {
+      width: 100%;
+      margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .track-item-content {
+        width: 200px;
+        float: left;
+
+        &:before {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+
+  &-item {
+    &-content {
+      display: block;
+      position: relative;
+
+      &:before {
+        content: "";
+        background: rgba(0, 0, 0, .3);
+        @extend %stretch;
+      }
+    }
+
+    &-thumb {
+      width: 100%;
+    }
+
+    &-play,
+    &-like {
+      color: $white;
+      position: absolute;
+
+      &:hover,
+      &:focus {
+        color: $white;
+      }
+    }
+
+    &-play {
+      font-size: $gamma;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &-like {
+      font-size: $zeta;
+      left: 5px;
+      bottom: 0;
+    }
+
+    &-playlist {
+      padding-left: 10px;
+      overflow: hidden;
+    }
+  }
+
+  &-body {
+    position: relative;
+
+    .bx-prev,
+    .bx-next {
+      display: block;
+      border: 1px solid $emperor;
+      color: $emperor;
+      font-size: 16px;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      border-radius: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+
+      .icon {
+        margin-top: -5px;
+      }
+    }
+
+    .bx-prev {
+      left: -60px;
+    }
+
+    .bx-next {
+      right: -60px;
+    }
+  }
+}

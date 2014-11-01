@@ -1,0 +1,27 @@
+/*------------------------------------*\
+  #MENU
+\*------------------------------------*/
+.menu {
+  background: $white;
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .05);
+  z-index: 1020;
+
+  &-list {
+    text-align: center;
+    @extend %nolist;
+
+    &-item {
+      display: inline-block;
+      margin: 0 30px;
+    }
+
+    &-link {
+      color: $kashmir-blue;
+      font-size: 40px;
+      display: block;
+    }
+  }
+}

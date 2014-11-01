@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  #DISCUSSION
+\*------------------------------------*/
+.discussion {
+  background: $submarine;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.avatar {
+  @extend %avatar;
+}
+
+.media {
+  margin: 10px 0;
+}

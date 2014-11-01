@@ -1,0 +1,15 @@
+/*------------------------------------*\
+  #PHOTOS
+\*------------------------------------*/
+.photos {
+  @extend %clearfix;
+}
+
+.photo {
+  float: left;
+  margin: 0 5px 5px 0;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}

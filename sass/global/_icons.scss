@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  #ICONS
+\*------------------------------------*/
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  &-prev,
+  &-next {
+    width: 19px;
+    height: 21px;
+  }
+
+  &-prev {
+    background: url(../images/icon_prev.png) no-repeat;
+  }
+
+  &-next {
+    background: url(../images/icon_next.png) no-repeat;
+  }
+}

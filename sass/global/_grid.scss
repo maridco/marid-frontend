@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  #GRID
+\*------------------------------------*/
+.grid {
+  list-style: none;
+  margin-left: -15px;
+  @extend %clearfix;
+}
+
+[class*="grid-col"] {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: -.25em;
+  min-height: 1px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+@for $i from 1 through 12 {
+  .grid-col-1of#{$i} {
+    width: 100% / $i;
+  }
+}
