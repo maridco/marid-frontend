@@ -9,6 +9,13 @@
   height: 40px;
   margin: 5px 0;
   @extend %ir;
+
+  .home-landing & {
+    background: url(../images/mariad_landing_logo.png) no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 65px;
+  }
 }
 
 .notification {

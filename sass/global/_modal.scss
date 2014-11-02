@@ -1,0 +1,14 @@
+/*------------------------------------*\
+  #MODAL
+\*------------------------------------*/
+.modal-signin {
+  a {
+    color: $kashmir-blue;
+
+    &:hover,
+    &:focus {
+      color: $kashmir-blue;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+.btn-signin {
+  color: $white;
+  width: 130px;
+  height: 40px;
+  margin-top: 5px;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+
+  .icon-user {
+    margin: -5px 0 0 10px;
+  }
+}

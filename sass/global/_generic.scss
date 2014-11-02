@@ -3,7 +3,7 @@
 \*------------------------------------*/
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -19,4 +19,47 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+.round {
+  border-radius: 4px;
+}
+
 .m-t-130 { margin-top: 130px; }
+
+/**
+ * Home Landing
+ */
+.home-landing {
+  background: url(../images/marid_landing_bg.jpg) center no-repeat;
+  background-size: cover;
+
+  .navbar-default {
+    background: transparent;
+    border: 0;
+    margin-top: 30px;
+
+    .navbar-nav {
+      margin-top: 15px;
+
+      > li {
+        > a {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .jumbotron {
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+
+    h2 {
+      color: $white;
+      font-size: $beta;
+    }
+  }
+
+  .main {
+    margin-top: 0;
+  }
+}

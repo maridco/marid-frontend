@@ -18,4 +18,16 @@
   &-next {
     background: url(../images/icon_next.png) no-repeat;
   }
+
+  &-user {
+    background: url(../images/icon_user.png) no-repeat;
+    width: 26px;
+    height: 25px;
+  }
+
+  &-close {
+    background: url(../images/icon_close.png) no-repeat;
+    width: 15px;
+    height: 15px;
+  }
 }
