@@ -1,0 +1,70 @@
+/*------------------------------------*\
+  #VIDEO
+\*------------------------------------*/
+.videos {
+  @extend %clearfix;
+}
+
+.video {
+  float: left;
+  margin: 0 15px 25px 0;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  &-item {
+    display: block;
+    position: relative;
+    height: 150px;
+    width: 100%;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+
+      figure {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    > img {
+      background-size: cover;
+    }
+
+    figure {
+      background: $white;
+      position: absolute;
+      top: -25%;
+      left: -25%;
+      width: 450px;
+      height: 250px;
+      padding: 15px;
+      opacity: 0;
+      transform: scale(0);
+      transition: all .3s ease-in-out;
+      z-index: 100;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, .15), 0 0 1px rgba(0, 0, 0, .15);
+    }
+
+    figcaption {
+      overflow: hidden;
+      padding-left: 10px;
+
+      h3 {
+        font-size: $zeta;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .fa-lg {
+    color: $white;
+    font-size: $gamma;
+  }
+}

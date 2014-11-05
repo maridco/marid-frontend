@@ -288,7 +288,7 @@ $screen-desktop:             $screen-md-min !default;
 
 // Large screen / wide desktop
 //** Deprecated `$screen-lg` as of v3.0.1
-$screen-lg:                  1200px !default;
+$screen-lg:                  992px !default;
 $screen-lg-min:              $screen-lg !default;
 //** Deprecated `$screen-lg-desktop` as of v3.0.1
 $screen-lg-desktop:          $screen-lg-min !default;
@@ -595,7 +595,7 @@ $modal-header-border-color:   #e5e5e5 !default;
 $modal-footer-border-color:   $modal-header-border-color !default;
 
 $modal-lg:                    900px !default;
-$modal-md:                    600px !default;
+$modal-md:                    750px !default;
 $modal-sm:                    300px !default;
 
 

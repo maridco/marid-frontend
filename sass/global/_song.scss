@@ -165,4 +165,10 @@
       @extend %text-truncate;
     }
   }
+
+  &-like {
+    &.active {
+      color: $red;
+    }
+  }
 }

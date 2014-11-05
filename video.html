@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video page</title>
+  <link rel="shortcut icon" href="images/marid_logo.png" type="image/png"/>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <header class="navbar navbar-default navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand logo"></a>
+      </div>
+      <nav class="collapse navbar-collapse" role="navigation">
+        <div class="col-md-10 col-xs-9">
+          <form action="" class="navbar-form navbar-search" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for Artists, Songs, Videos, Lyrics, Genres">
+              <span class="input-group-addon"><i class="fa fa-microphone"></i></span>
+            </div>
+          </form>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell fa-lg"></i><span class="notification label label-danger">14</span></a>
+            <ul class="dropdown-menu dropdown-notification">
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">Daniel started following your band</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">Jennie liked your song</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">James sent you a private message "Hello user, I hope you..."</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">A new song from "XY" is out now. Click here to listen.</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-lg"></i></a>
+            <ul class="dropdown-menu menu-list">
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="fa fa-desktop"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="View Portfolio"><i class="fa fa-eye"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Upload"><i class="fa fa-cloud-upload"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Playlists"><i class="fa fa-bars"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Connections"><i class="fa fa-link"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Groups"><i class="fa fa-users"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Account Settings"><i class="fa fa-cog"></i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- /end header -->
+  <main class="main" role="main">
+    <div class="container">
+      <div class="content m-t-130">
+        <div class="music">
+          <div class="music-cover"><img src="images/bonobo.jpg" alt=""></div>
+          <div class="music-content">
+            <div class="music-artist">CHVRCHES</div>
+            <div class="music-desc">This a a sample description</div>
+          </div>
+          <a href="#" class="music-setting"><i class="fa fa-cog fa-lg"></i></a>
+        </div>
+        <ul class="filter filter-albums">
+          <li class="filter-item"><a href="album.html" class="filter-link">Albums</a></li>
+          <li class="filter-item"><a href="song.html" class="filter-link">Songs</a></li>
+          <li class="filter-item"><a href="photo.html" class="filter-link">Photos</a></li>
+          <li class="filter-item"><a href="#" class="filter-link active">Videos</a></li>
+        </ul>
+        <div class="box box-small">
+          <div class="videos" id="video">
+            <div class="video w-250">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_1.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-345">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_2.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-250">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_3.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-250">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_4.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-250">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_5.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-350">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_6.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-310">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_7.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-380">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_8.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-155">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_9.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-250">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_10.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-345">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_11.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="video w-250">
+              <div class="video-item" data-toggle="modal" data-target="#modal">
+                <img src="images/video_12.jpg" alt="">
+                <figure>
+                  <div class="pull-left">
+                    <img src="images/video_1.jpg" alt="" width="305" height="215">
+                  </div>
+                  <figcaption class="text-center">
+                    <div class="avatar">
+                      <img src="images/chvrches.png" alt="">
+                    </div>
+                    <h3>Video Title</h3>
+                    <p>Album: wasd</p>
+                    <p>Year: 2014</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-video modal-md">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal">
+                    <span aria-hidden="true"><i class="icon icon-close"></i></span>
+                    <span class="sr-only">Close</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-8 col-xs-12">
+                      <div class="video">
+                        <img class="img-responsive" src="images/video_large.jpg" alt="">
+                        <button class="btn-video center" id="play"><i class="fa fa-play fa-lg"></i></button>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                      <h3>Video Title</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, consequuntur delectus aliquam! Eligendi repellat, necessitatibus quam neque vitae totam vero repellendus quidem odit, alias sit nemo. Similique quasi dolor vero.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- /end main -->
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/jquery.bxslider.min.js"></script>
+  <script src="js/vendor/nprogress.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

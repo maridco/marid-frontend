@@ -12,3 +12,33 @@
     }
   }
 }
+
+.modal-video {
+  .modal-header {
+    border-bottom: 0;
+  }
+
+  .modal-content {
+    background: $white;
+    font-size: 16px;
+
+    h3 {
+      font-size: $gamma;
+      font-weight: 700;
+    }
+  }
+
+  .modal-body {
+    padding-top: 0;
+  }
+
+  .video {
+    margin: 0;
+    position: relative;
+	width: 100%;
+
+    img {
+      background-size: cover;
+    }
+  }
+}

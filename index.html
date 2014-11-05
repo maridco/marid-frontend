@@ -24,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#" class="navbar-brand logo">Marid</a>
+        <a href="index.html" class="navbar-brand logo"></a>
       </div>
       <nav class="collapse navbar-collapse" role="navigation">
         <div class="col-md-10 col-xs-9">
@@ -36,42 +36,69 @@
           </form>
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><i class="fa fa-bell fa-lg"></i><span class="notification label label-danger">14</span></a></li>
-          <li><a href="#" id="settings"><i class="fa fa-user fa-lg"></i></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell fa-lg"></i><span class="notification label label-danger">14</span></a>
+            <ul class="dropdown-menu dropdown-notification">
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">Daniel started following your band</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">Jennie liked your song</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">James sent you a private message "Hello user, I hope you..."</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="media">
+                  <div class="media-left"><img class="media-cover" src="images/chvrches.png" alt=""></div>
+                  <div class="media-body">A new song from "XY" is out now. Click here to listen.</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-lg"></i></a>
+            <ul class="dropdown-menu menu-list">
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="fa fa-desktop"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="View Portfolio"><i class="fa fa-eye"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Upload"><i class="fa fa-cloud-upload"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Playlists"><i class="fa fa-bars"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Connections"><i class="fa fa-link"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Groups"><i class="fa fa-users"></i></a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Account Settings"><i class="fa fa-cog"></i></a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
   <!-- /end header -->
-  <nav class="menu hidden" id="menu">
-    <ul class="menu-list">
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="fa fa-desktop"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="View Portfolio"><i class="fa fa-eye"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Upload"><i class="fa fa-cloud-upload"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Playlists"><i class="fa fa-bars"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Connections"><i class="fa fa-link"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Groups"><i class="fa fa-users"></i></a>
-      </li>
-      <li class="menu-list-item">
-        <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Account Settings"><i class="fa fa-cog"></i></a>
-      </li>
-    </ul>
-  </nav>
-  <!-- /end menu -->
   <main class="main" role="main">
     <div class="container">
       <div class="heading text-center">
@@ -87,7 +114,7 @@
           <li class="filter-item"><a href="#" class="filter-link">Songwriters</a></li>
         </ul>
         <div class="box">
-          <h3 class="box-title">Featured</h3>
+          <h3 class="box-title">Feature</h3>
           <div class="track-container">
             <div class="track-body">
               <ul class="track-list">
@@ -171,7 +198,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="box-title">Handpicked for you</h3>
+          <h3 class="box-title">Handpicker for you</h3>
           <div class="track-container">
             <div class="track-body">
               <ul class="track-list">

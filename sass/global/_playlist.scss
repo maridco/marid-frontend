@@ -115,6 +115,12 @@
       margin-top: 5px;
     }
   }
+
+  &-star {
+    &.active {
+      color: $yellow;
+    }
+  }
 }
 
 /**
@@ -123,5 +129,6 @@
 @for $i from 1 through 100 {
   [data-wave="#{$i}"] {
     width: #{$i} + '%';
+    transition: .3s ease;
   }
 }

@@ -13,6 +13,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .round {
   border-radius: 4px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .m-t-130 { margin-top: 130px; }

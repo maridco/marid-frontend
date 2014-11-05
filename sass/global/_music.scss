@@ -37,6 +37,13 @@
     font-size: $delta;
   }
 
+  &-follow,
+  &-setting {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+  }
+
   &-follow {
     background: $bismark;
     color: $white;
@@ -47,9 +54,6 @@
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
-    position: absolute;
-    top: 100px;
-    right: 30px;
 
     i {
       padding-left: 20px;
@@ -60,5 +64,9 @@
       color: $white;
       text-decoration: none;
     }
+  }
+
+  &-setting {
+    font-size: $delta;
   }
 }

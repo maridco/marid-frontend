@@ -1,27 +1,30 @@
 /*------------------------------------*\
   #MENU
 \*------------------------------------*/
-.menu {
+.menu-list {
   background: $white;
   position: fixed;
   width: 100%;
   top: 50px;
   box-shadow: 0 1px 0 rgba(0, 0, 0, .05);
   z-index: 1020;
+  text-align: center;
+  @extend %nolist;
 
-  &-list {
-    text-align: center;
-    @extend %nolist;
+  &-item {
+    display: inline-block;
+    margin: 0 30px;
+  }
 
-    &-item {
-      display: inline-block;
-      margin: 0 30px;
-    }
+  &-link {
+    font-size: 40px;
+    color: $kashmir-blue !important;
+    line-height: 1.2 !important;
+    padding: 0 !important;
 
-    &-link {
-      color: $kashmir-blue;
-      font-size: 40px;
-      display: block;
+    &:hover,
+    &:focus {
+      background: transparent !important;
     }
   }
 }
