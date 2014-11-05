@@ -2633,7 +2633,7 @@ tbody.collapse.in {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
 
-.dropdown {
+.notificate {
   position: relative; }
 
 .dropdown-toggle:focus {
@@ -2970,7 +2970,7 @@ tbody.collapse.in {
   .nav:after {
     clear: both; }
   .nav > li {
-    position: relative;
+    /*position: relative;*/
     display: block; }
     .nav > li > a {
       position: relative;
