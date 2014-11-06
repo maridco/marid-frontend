@@ -12,7 +12,7 @@ For more information, please see http://marid.co
 :---:|:---:|:---:|:---:|:---:
 [Nathan Bernard](https://github.com/nb333) | 
 
-A full list of [contributors](https://github.com/maridco/backend/graphs/contributors) can be found on GitHub.
+A full list of [contributors](https://github.com/maridco/marid-html/graphs/contributors) can be found on GitHub.
 
 ## Contributing
 
@@ -28,11 +28,11 @@ A full list of [contributors](https://github.com/maridco/backend/graphs/contribu
 
 ## Bug Tracker
 
-Found a bug? Report it [here](https://github.com/maridco/backend/issues/)!
+Found a bug? Report it [here](https://github.com/maridco/marid-html/issues/)!
 
 ## Feature Request
 
-Have an idea? Add it [here](https://github.com/maridco/backend/issues/)!
+Have an idea? Add it [here](https://github.com/maridco/marid-html/issues/)!
 
 ## Contact
 
