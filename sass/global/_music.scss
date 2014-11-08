@@ -45,7 +45,8 @@
   }
 
   &-follow {
-    background: $bismark;
+    background: lighten($bismark, 10%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
     color: $white;
     font-weight: 700;
     display: block;
@@ -55,14 +56,43 @@
     text-align: center;
     text-transform: uppercase;
 
-    i {
-      padding-left: 20px;
-    }
-
     &:hover,
     &:focus {
+      background: darken($bismark, 10%);
       color: $white;
       text-decoration: none;
+    }
+
+    &.following {
+      background: darken($bismark, 10%);
+
+      &:hover,
+      &:focus {
+        background-color: #be1931;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+      }
+
+      .following-text {
+        display: inline-block;
+      }
+
+      .follow-text,
+      .unfollow-text {
+        display: none;
+      }
+    }
+
+    .follow-text {
+      display: inline-block;
+    }
+
+    .following-text,
+    .unfollow-text {
+      display: none;
+    }
+
+    i {
+      padding-left: 20px;
     }
   }
 

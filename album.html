@@ -27,11 +27,11 @@
         <a href="index.html" class="navbar-brand logo"></a>
       </div>
       <nav class="collapse navbar-collapse" role="navigation">
-        <div class="col-md-10 col-xs-9">
+        <div class="col-md-9 col-xs-8">
           <form action="" class="navbar-form navbar-search" role="search">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for Artists, Songs, Videos, Lyrics, Genres">
-              <span class="input-group-addon"><i class="fa fa-microphone"></i></span>
+              <i class="fa fa-microphone"></i>
             </div>
           </form>
         </div>
@@ -114,7 +114,12 @@
             <div class="music-artist">CHVRCHES</div>
             <div class="music-desc">This a a sample description</div>
           </div>
-          <a href="#" class="music-follow">Follow <i class="fa fa-plus"></i></a>
+          <a href="#" class="music-follow js-follow">
+            <span class="follow-text">Follow</span>
+            <span class="following-text">Following</span>
+            <span class="unfollow-text">Unfollow</span>
+            <i class="fa fa-plus"></i>
+          </a>
         </div>
         <ul class="filter filter-albums">
           <li class="filter-item"><a href="#" class="filter-link active">Albums</a></li>

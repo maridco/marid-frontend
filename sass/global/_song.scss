@@ -79,6 +79,7 @@
 
     &-count {
       background: rgba($corn-flower, .9);
+      border-radius: 100%;
       @extend %stretch;
     }
 

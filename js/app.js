@@ -25,6 +25,35 @@
 
 	$('.modal').on('show.bs.modal', centerModal);
 
+  // Following
+  $('.js-follow').on('click', function(event) {
+    event.preventDefault();
+    var $self = $(this);
+
+    $self.find('.unfollow-text').hide();
+    $self.find('.following-text').hide();
+
+    if ($self.hasClass('following')) {
+      $self.removeClass('following');
+    } else {
+      $self.find('.following-text').show();
+      $self.addClass('following');
+    }
+  });
+
+  $(document).on({
+    mouseenter: function () {
+      var $self = $(this);
+      $self.find('.following-text').hide();
+      $self.find('.unfollow-text').show();
+    },
+    mouseleave: function () {
+      var $self = $(this);
+      $self.find('.unfollow-text').hide();
+      $self.find('.following-text').show();
+    }
+  }, '.music-follow.following');
+
   // Song
   var $song = $('.song');
   var $sound = $('.sound');
@@ -42,24 +71,11 @@
       var $self = $(this);
 
       if ($self.hasClass('sound-pause')) {
-
-        $self
-          .removeClass('sound-pause')
-          .addClass('sound-play');
-
-        $self
-          .children()
-          .removeClass('fa-pause')
-          .addClass('fa-play');
+        $self.removeClass('sound-pause').addClass('sound-play');
+        $self.children().removeClass('fa-pause').addClass('fa-play');
       } else {
-        $self
-          .removeClass('sound-play')
-          .addClass('sound-pause');
-
-        $self
-          .children()
-          .removeClass('fa-play')
-          .addClass('fa-pause');
+        $self.removeClass('sound-play').addClass('sound-pause');
+        $self.children().removeClass('fa-play').addClass('fa-pause');
       }
     });
   }

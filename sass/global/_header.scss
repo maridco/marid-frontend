@@ -48,18 +48,21 @@
   .input-group {
     width: 100%;
 
-    .input-group-addon {
-      background: $white;
-      color: $east-bay;
-      font-size: $delta;
-      width: 37px;
-      padding: 0;
-    }
-
     .form-control {
-      border-right: 0;
       box-shadow: none;
     }
+  }
+
+  .fa {
+    color: $east-bay;
+    font-size: $delta;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 20;
+    cursor: default;
+    pointer-events: none;
   }
 }
 
@@ -116,15 +119,18 @@
 
   .media-left,
   .media-body {
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
   }
 
   .media-body {
     max-width: 210px;
-    max-height: 30px;
+    max-height: 40px;
+    overflow: hidden;
     word-break: break-word;
-    white-space: normal;
+    white-space: pre-wrap;
+    position: relative;
+	padding-left: 10px;
   }
 
   .media-cover {
@@ -132,6 +138,6 @@
     overflow: hidden;
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 0px;
   }
 }
