@@ -4,11 +4,11 @@
   // NProgress
   NProgress.start();
   NProgress.configure({
-      ease: 'ease',
-      speed: 500
+    ease: 'ease',
+    speed: 500
   });
   setInterval(function() {
-      NProgress.done()
+    NProgress.done()
   }, 1500);
 
 
@@ -16,9 +16,9 @@
   $('.menu-list-link').tooltip();
 
   function centerModal() {
-		$(this).css('display', 'block');
-		var $dialog = $(this).find(".modal-dialog");
-		var offset = ($(window).height() - $dialog.height()) / 2;
+    $(this).css('display', 'block');
+    var $dialog = $(this).find(".modal-dialog");
+    var offset = ($(window).height() - $dialog.height()) / 2;
 		// Center modal vertically in window
 		$dialog.css("margin-top", offset);
 	}
@@ -90,4 +90,12 @@
       $that.toggleClass('active');
     });
   }
+  $('#disable_notf_btn').on('click', function(e){
+    if ($('#disable_notf_btn').is(":checked"))
+    {
+      $("#notification_form :input").attr("disabled","disabled");
+    }else{
+      $("#notification_form :input").removeAttr("disabled");
+    }
+  });
 }(jQuery));
