@@ -6841,22 +6841,38 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
   #FILTERS
 \*------------------------------------*/
 .filter {
-  text-align: center;
-  margin-bottom: 50px; }
-  .filter-item {
-    display: inline-block; }
-  .filter-link {
-    color: #ccc;
-    display: block;
-    font-size: 36px;
-    margin: 0 20px; }
-    .filter-link:hover, .filter-link:focus, .filter-link.active {
-      color: #50708c;
-      text-decoration: none; }
-  .filter-albums .filter-link {
-    font-size: 48px;
-    margin: 0 25px; }
+text-align:center;
+margin-bottom:50px;
+}
 
+.filter-item {
+display:inline-block;
+}
+
+.filter-link {
+color:#ccc;
+display:block;
+font-size:36px;
+margin:0 20px;
+}
+
+.filter-link:hover,.filter-link:focus,.filter-link.active {
+color:#50708c;
+text-decoration:none;
+}
+
+.filter-albums .filter-link {
+font-size:48px;
+margin:0 25px;
+}
+.filter-albums .filter-link-settings {
+font-size:40px !important;
+}
+.filter-link-settings .nav > li > a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
 /*------------------------------------*\
   #TRACKS
 \*------------------------------------*/
@@ -7695,8 +7711,8 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
   margin-top: 30px; }
 
 .media {
-  margin: 10px 0; }
-
+  margin: 10px 0; 
+}
 /*------------------------------------*\
   #VIDEO
 \*------------------------------------*/
@@ -7939,6 +7955,143 @@ button::-moz-focus-inner {
   padding: 0;
   border: 0; }
 
+    .btn-file {
+    position: relative;
+    overflow: hidden;
+    }
+    .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    }
+    .col-pad-10{
+      margin:10px;
+    }
+.flat-green-block{
+  background-color: #1ABC9C;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-blue-block{
+  background-color: #3498DB;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-purple-block{
+  background-color: #9b59b6;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-grey-block{
+  background-color: #34495e;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-light-grey-block{
+  background-color: #95a5a6;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-light-orange-block{
+  background-color: #e67e22;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-pink-block{
+  background-color: #e74c3c;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+    margin: 10px;
+
+}
+.flat-grey-white-block{
+  background-color: #7f8c8d;
+  height:75px;
+  width: 75px;
+  border-radius:4px;
+  margin: 10px;
+}
+.bg-pallate{
+  background-color: #f3f3f3;
+  margin: 10px;
+  border-radius: 6px;
+}
+.bg-service{
+  background-color: #f3f3f3;
+  margin: 10px;
+  border-radius: 6px;
+}
+.service-google{
+  background-image: url("../images/services/google.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  margin:30px;
+}
+.service-twitter{
+  background-image: url("../images/services/twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  margin:30px;
+}
+.service-soundcloud{
+  background-image: url("../images/services/soundcloud.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  margin:30px;
+}
+.service-youtube{
+  background-image: url("../images/services/youtube.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  margin:30px;
+}
+.service-vimeo{
+  background-image: url("../images/services/vimeo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  margin:30px;
+}
+.service-fb{
+  background-image: url("../images/services/fb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  margin:30px;
+}
 .mfp-close {
   width: 44px;
   height: 44px;
