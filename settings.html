@@ -72,19 +72,19 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-lg"></i></a>
             <ul class="dropdown-menu menu-list">
               <li class="menu-list-item">
-                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a>
+                <a href="album.html" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a>
               </li>
               <li class="menu-list-item">
-                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="fa fa-desktop"></i></a>
+                <a href="album.html" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="fa fa-desktop"></i></a>
               </li>
               <li class="menu-list-item">
-                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="View Portfolio"><i class="fa fa-eye"></i></a>
+                <a href="album.html" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="View Portfolio"><i class="fa fa-eye"></i></a>
               </li>
               <li class="menu-list-item">
-                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Upload"><i class="fa fa-cloud-upload"></i></a>
+                <a href="photos.html" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Upload"><i class="fa fa-cloud-upload"></i></a>
               </li>
               <li class="menu-list-item">
-                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Playlists"><i class="fa fa-bars"></i></a>
+                <a href="song.html" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Playlists"><i class="fa fa-bars"></i></a>
               </li>
               <li class="menu-list-item">
                 <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Connections"><i class="fa fa-link"></i></a>
@@ -96,7 +96,7 @@
                 <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Settings"><i class="fa fa-cog"></i></a>
               </li>
               <li class="menu-list-item">
-                <a href="#" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Sign Out"><i class="fa fa-sign-out"></i></a>
+                <a href="home.html" class="menu-list-link" data-toggle="tooltip" data-placement="bottom" title="Sign Out"><i class="fa fa-sign-out"></i></a>
               </li>
             </ul>
           </li>
@@ -108,8 +108,8 @@
   <main class="main" role="main">
     <div class="container">
       <div class="content m-t-130">
-        <ul class="filter filter-albums">
-          <li role="presentation" class="filter-item"><a href="#accounts" role="tab" data-toggle="tab" class="filter-link filter-link-settings active">Accounts</a></li>
+        <ul class="filter filter-albums settings ">
+          <li role="presentation" class="filter-item active"><a href="#accounts" role="tab" data-toggle="tab" class="filter-link filter-link-settings active">Accounts</a></li>
           <li role="presentation" class="filter-item"><a href="#notifications" role="tab" data-toggle="tab" class="filter-link filter-link-settings ">Notifications</a></li>
           <li  role="presentation" class="filter-item"><a href="#design" role="tab" data-toggle="tab" class="filter-link filter-link-settings ">Design</a></li>
           <li role="presentation" class="filter-item"><a href="#content" role="tab" data-toggle="tab" class="filter-link filter-link-settings ">Content</a></li>
@@ -138,14 +138,15 @@
             <div class="form-group">
               <label for="username" class="col-sm-2 control-label">Username</label>
               <div class="col-sm-10 col-md-8">
-                <input type="text" class="form-control" id="username" placeholder="Username">
+                <input type="text" class="form-control" id="username" placeholder="Username" value="CHVRCHES">
+                <i>marid.co/chvrches</i>
               </div>
             </div>
 
             <div class="form-group">
               <label for="emailid" class="col-sm-2 control-label">Email</label>
               <div class="col-sm-10 col-md-8">
-                <input type="email" class="form-control" id="emailid" placeholder="username@domain.com">
+                <input type="email" class="form-control" id="emailid" placeholder="username@domain.com" value="contact@chvrches.com">
               </div>
             </div>
 
@@ -168,7 +169,7 @@
            <div class="form-group">
             <label for="bio" class="col-sm-2 control-label">Bio</label>
             <div class="col-xs-6 col-sm-4 col-md-8">
-              <textarea type="text" class="form-control" rows="5" cols="60" id="bio" placeholder="Tell us about yourself."></textarea>
+              <input type="text" class="form-control" rows="5" cols="60" id="bio" placeholder="Tell us about yourself." maxlength="160"></input>
             </div>
           </div>
 
@@ -216,6 +217,7 @@
           </div>
           <div class="form-group">
             <center>
+              <a class="btn btn-success" style="margin:0 auto;">Save Changes</a>
               <a class="btn btn-danger" style="margin:0 auto;">Deactivate Account</a>
             </center>
           </div>
