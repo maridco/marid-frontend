@@ -103,4 +103,22 @@
             $("#notification_form :input").removeAttr("disabled");
         }
     });
+    $('#upload_btn').on('click', function(){
+        $('.progress').css('display','block');
+        $('#progress_bar').css("width","0%");
+        $('#progress_bar').addClass("progress-bar-striped active");
+        setInterval(updateProgressBar, 1000);
+    });
+    function updateProgressBar(){
+        var width = $('#progress_bar').width();
+        var progressParentWidth = $('.progress').width();
+        if(width!=progressParentWidth && width<=progressParentWidth){
+            width+=10;    
+            $('#progress_bar').css("width",width+"%");
+        }else{
+            clearInterval(updateProgressBar);
+            $('#progress_bar').removeClass("progress-bar-striped active");
+            $('.progress').css('display','none');
+        }
+    }
 }(jQuery));
