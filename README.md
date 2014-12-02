@@ -42,4 +42,5 @@ IRC: `#marid` on irc.freenode.net
 
 ## License
 
-Copyright 2014 Marid. All Rights Reserved. Proprietary and Confidential.
+Marid is released under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). <br/>
+The full license text is included in `LICENSE.txt`.
