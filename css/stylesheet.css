@@ -6742,12 +6742,12 @@ h1, h2, h3, h4, h5, h6 {
 input[type="text"], input[type="password"], input[type="email"], textarea {
   font-weight: 400; }
   input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder {
-    color: #42617e;
+    color: #728ca3;
     opacity: 1; }
   input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
-    color: #42617e; }
+    color: #728ca3; }
   input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-    color: #42617e; }
+    color: #728ca3; }
 
 .form-comment {
   margin-top: 15px; }
@@ -6946,7 +6946,7 @@ font-size:40px !important;
 .upload{
   position: relative;
   padding: 0 30px;
-  margin: -110px 0 40px; 
+  margin: -110px 0 40px;
   }
 .upload-title {
 font-size: 72px;
@@ -7753,7 +7753,7 @@ color: #3e5c79;
   margin-top: 30px; }
 
 .media {
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 /*------------------------------------*\
   #VIDEO
