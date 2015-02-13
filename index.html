@@ -294,6 +294,11 @@
         </div>
       </div>
     </div>
+
+    <div id="footer-container">
+      <div id="footer-content">&copy; <script type="text/javascript"> document.write(new Date().getFullYear()); </script>, Marid co.          <a href="#">Dashboard</a>  |  <a href="album.html">Profile</a>  |  <a href="upload.html">Upload</a>  |  <a href="#">Playlist</a>  |  <a href="#">Connections</a>  |  <a href="#">Groups</a>  |  <a href="settings.html">Settings</a></div>
+    </div>
+    <div id="footer"></div>
   </main>
   <!-- /end main -->
   <script src="js/vendor/jquery.min.js"></script>
@@ -317,6 +322,12 @@
         nextText: '<i class="icon icon-next"></i>'
       });
     });
+  </script>
+
+  <script>
+  $(function(){
+    $("#content").load("footer.html");
+  });
   </script>
 </body>
 </html>
