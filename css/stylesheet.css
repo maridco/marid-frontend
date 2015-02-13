@@ -6951,8 +6951,15 @@ font-size:40px !important;
 .upload-title {
 font-size: 72px;
 line-height: 1;
-margin-top: 40px;
+float: center-block;
 color: #3e5c79;
+display: table;
+margin: 0 auto;
+top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
 }
 .progress-container{
   margin-left:30px;
@@ -8413,6 +8420,7 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
 
 /*------------------------------------*\
   #SHAME
