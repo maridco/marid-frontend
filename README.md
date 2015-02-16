@@ -6,11 +6,12 @@ Marid is a music platform that beautifully showcases the works of independent ar
 
 For more information, please see http://marid.co
 
-## Authors
+## Team
 
-[![Nathan Bernard](https://s.gravatar.com/avatar/764276fb0de2fba228d1a906efdcae45?s=117)](https://github.com/nb333) | 
+[![Nathan Bernard](https://s.gravatar.com/avatar/764276fb0de2fba228d1a906efdcae45?s=117)](https://github.com/nb333) | [![Richard Iannone](https://avatars3.githubusercontent.com/u/5612024?v=2&s=117)](https://github.com/rich-iannone) | [![Josh Ghent](https://avatars2.githubusercontent.com/u/2934976?v=3&s=117)](https://github.com/joshghent)
 :---:|:---:|:---:|:---:|:---:
-[Nathan Bernard](https://github.com/nb333) | 
+[Nathan Bernard](https://github.com/nb333) | [Richard Iannone](https://github.com/rich-iannone) | [Josh Ghent](https://github.com/joshghent)
+
 
 A full list of [contributors](https://github.com/maridco/marid-frontend/graphs/contributors) can be found on GitHub.
 
@@ -23,8 +24,6 @@ A full list of [contributors](https://github.com/maridco/marid-frontend/graphs/c
 5. Create new [Pull Request](https://help.github.com/articles/using-pull-requests)
 
 **Please use [git-flow](https://github.com/nvie/gitflow) for branch management.**
-
-**Please make sure your fork is private, not public.**
 
 ## Bug Tracker
 
