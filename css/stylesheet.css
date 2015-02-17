@@ -1316,10 +1316,10 @@ pre {
       width: 740px; } }
   @media (min-width: 992px) {
     .container {
-      width: 960px; } }
+      width: 1010px; } }
   @media (min-width: 992px) {
     .container {
-      width: 960px; } }
+      width: 1010px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -8443,5 +8443,5 @@ body > #footer-container {
 
 #footer-content {
   padding-bottom: 3em;
-  padding-left: 250px;
+  text-align: center;
 }
