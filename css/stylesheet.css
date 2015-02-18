@@ -100,6 +100,17 @@
     width: 70px;
     height: 70px; }
 
+
+
+/*
+* Search Bar
+*/
+
+    .hidden-resp{
+     display:none;
+    }
+
+
 /* normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1057,7 +1068,9 @@ p {
   line-height: 1.4; }
   @media (min-width: 768px) {
     .lead {
-      font-size: 21px; } }
+      font-size: 21px; } 
+
+    }
 
 small, .small {
   font-size: 85%; }
@@ -1313,7 +1326,10 @@ pre {
     clear: both; }
   @media (min-width: 768px) {
     .container {
-      width: 740px; } }
+      width: 740px; } 
+
+
+    }
   @media (min-width: 992px) {
     .container {
       width: 1010px; } }
@@ -2059,6 +2075,15 @@ table td[class*="col-"], table th[class*="col-"] {
   background-color: #ebcccc; }
 
 @media screen and (max-width: 767px) {
+.hidden-resp{
+     display:inline;
+    }
+
+.search-bar{
+    display:none;
+
+}
+
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -2079,6 +2104,9 @@ table td[class*="col-"], table th[class*="col-"] {
         border-right: 0; }
       .table-responsive > .table-bordered > tbody > tr:last-child > th, .table-responsive > .table-bordered > tbody > tr:last-child > td, .table-responsive > .table-bordered > tfoot > tr:last-child > th, .table-responsive > .table-bordered > tfoot > tr:last-child > td {
         border-bottom: 0; } }
+
+
+
 
 fieldset {
   padding: 0;
@@ -3124,6 +3152,8 @@ tbody.collapse.in {
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px; }
   @media (max-width: 480px) and (orientation: landscape) {
+
+
     .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
