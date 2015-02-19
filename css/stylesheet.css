@@ -8443,5 +8443,18 @@ body > #footer-container {
 
 #footer-content {
   padding-bottom: 3em;
-  padding-left: 250px;
+  padding-left: 210px;
+}
+
+.alignleft {
+  float: left;
+  padding-left: 14px;
+}
+.alignright {
+  float: right;
+  padding-right: 14px;
+}
+
+#footer-rightalign {
+  padding-right: 220px;
 }
