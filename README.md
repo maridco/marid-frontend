@@ -21,6 +21,8 @@ A full list of [contributors](https://github.com/maridco/marid-frontend/graphs/c
 8. Push to the branch (`git push origin develop/my-new-feature`)
 9. Create new [Pull Request](https://help.github.com/articles/using-pull-requests)
 
+See [here](https://guides.github.com/activities/contributing-to-open-source/index.html) for more detail on contributing to open source.
+
 **Please use [git-flow](https://github.com/nvie/gitflow) for branch management.**
 
 ## Dependancies
