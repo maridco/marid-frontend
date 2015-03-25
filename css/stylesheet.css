@@ -8422,11 +8422,29 @@ img.mfp-img {
   padding-top: 0; }
 
 /*------------------------------------*\
-  #MISC
+  #SETTINGS
 \*------------------------------------*/
 
 .save-changes{
   margin: 0 auto;
+}
+
+#current-avatar{
+  margin-top: -10px;
+}
+
+.float-left{
+  float: left;
+}
+
+/*------------------------------------*\
+  #TERMS
+\*------------------------------------*/
+
+.license {
+
+  width: 500px;
+  overflow: auto;
 }
 
 /*------------------------------------*\

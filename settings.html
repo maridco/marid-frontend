@@ -133,7 +133,7 @@
                   Current Avatar
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-2">
-                  <img class="img-circle" src="images/bonobo.jpg" width="50px" height="50px" style="margin-top:-10px;">
+                  <img class="img-circle" id="current-avatar" src="images/bonobo.jpg" width="50px" height="50px">
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@
             <div class="form-group">
               <label for="password" class="col-sm-2 control-label">Name</label>
               <div class="col-xs-6 col-sm-4 col-md-4">
-                <input type="text" class="form-control" style="float:left;" id="firstName" placeholder="First Name">
+                <input type="text" class="form-control float-left" id="firstName" placeholder="First Name">
               </div>
               <div class="col-xs-6 col-sm-4 col-md-4">
                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
@@ -173,6 +173,7 @@
               <label for="bio" class="col-sm-2 control-label">Bio</label>
             <div class="col-xs-6 col-sm-4 col-md-8">
               <input type="text" class="form-control" rows="5" cols="60" id="bio" placeholder="Tell us about yourself." maxlength="160"></input>
+<i>Characters Remaining: </i><i class="charactersRemaining">160</i>
               </div>
             </div>
 
