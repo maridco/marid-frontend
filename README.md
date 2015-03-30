@@ -9,7 +9,7 @@ For more information, please see http://marid.co
 ## Team
 A full list of [contributors](https://github.com/maridco/marid-frontend/graphs/contributors) can be found on GitHub.
 
-## Install
+## Contribute
 
 1. Clone the repository `git clone https://github.com/maridco/marid-frontend.git`
 2. Install dependencies `bower install`
