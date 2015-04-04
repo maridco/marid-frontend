@@ -28,6 +28,7 @@
   });
 
   function centerModal() {
+    /*jshint validthis: true */
     $(this).css('display', 'block');
     var $dialog = $(this).find('.modal-dialog');
     var offset = ($(window).height() - $dialog.height()) / 2;
